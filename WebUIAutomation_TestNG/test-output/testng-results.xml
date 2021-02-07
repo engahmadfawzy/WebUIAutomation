@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" ignored="0" total="3" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Couldn’t find your Google Account]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16934" started-at="2021-01-24T22:14:12Z" finished-at="2021-01-24T22:14:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16934" started-at="2021-01-24T22:14:12Z" finished-at="2021-01-24T22:14:29Z">
+      <class name="openchrome.Assignment3">
+        <test-method status="PASS" signature="Launch()[pri:0, instance:openchrome.Assignment3@643b1d11]" name="Launch" is-config="true" duration-ms="7620" started-at="2021-01-25T00:14:12Z" finished-at="2021-01-25T00:14:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method status="PASS" signature="Login_with_Invalid_Email()[pri:1, instance:openchrome.Assignment3@643b1d11]" name="Login_with_Invalid_Email" duration-ms="5469" started-at="2021-01-25T00:14:19Z" finished-at="2021-01-25T00:14:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Couldn’t find your Google Account]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_with_Invalid_Email -->
+        <test-method status="PASS" signature="GOTO_HomePage()[pri:0, instance:openchrome.Assignment3@643b1d11]" name="GOTO_HomePage" is-config="true" duration-ms="1671" started-at="2021-01-25T00:14:25Z" finished-at="2021-01-25T00:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GOTO_HomePage -->
+        <test-method status="FAIL" signature="Verify_Forgot_email()[pri:2, instance:openchrome.Assignment3@643b1d11]" name="Verify_Forgot_email" duration-ms="51" started-at="2021-01-25T00:14:26Z" finished-at="2021-01-25T00:14:26Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"button[jsname='Cuz2Ue']"}
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IT2CE3R', ip: '192.168.1.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\V17AAH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 240d00a70cb01ae24edb824395c7e81c
+*** Element info: {Using=css selector, value=button[jsname='Cuz2Ue']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"button[jsname='Cuz2Ue']"}
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IT2CE3R', ip: '192.168.1.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\V17AAH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 240d00a70cb01ae24edb824395c7e81c
+*** Element info: {Using=css selector, value=button[jsname='Cuz2Ue']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at googlepages.SignInPage.Forgot_email(SignInPage.java:25)
+	at openchrome.Assignment3.Verify_Forgot_email(Assignment3.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Forgot_email -->
+        <test-method status="PASS" signature="GOTO_HomePage()[pri:0, instance:openchrome.Assignment3@643b1d11]" name="GOTO_HomePage" is-config="true" duration-ms="860" started-at="2021-01-25T00:14:26Z" finished-at="2021-01-25T00:14:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GOTO_HomePage -->
+        <test-method status="SKIP" signature="SearchGoogle()[pri:3, instance:openchrome.Assignment3@643b1d11]" name="SearchGoogle" duration-ms="0" started-at="2021-01-25T00:14:27Z" depends-on-methods="openchrome.Assignment3.Verify_Forgot_email" finished-at="2021-01-25T00:14:27Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Assignment3.SearchGoogle()[pri:3, instance:openchrome.Assignment3@643b1d11] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Assignment3.SearchGoogle()[pri:3, instance:openchrome.Assignment3@643b1d11] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchGoogle -->
+        <test-method status="PASS" signature="close()[pri:0, instance:openchrome.Assignment3@643b1d11]" name="close" is-config="true" duration-ms="1227" started-at="2021-01-25T00:14:27Z" finished-at="2021-01-25T00:14:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- openchrome.Assignment3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
