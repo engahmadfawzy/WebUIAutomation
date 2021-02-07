@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13203" started-at="2021-02-03T21:52:49Z" finished-at="2021-02-03T21:53:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13203" started-at="2021-02-03T21:52:49Z" finished-at="2021-02-03T21:53:02Z">
+      <class name="Testcases.Windows">
+        <test-method status="PASS" signature="Launch()[pri:0, instance:Testcases.Windows@100fc185]" name="Launch" is-config="true" duration-ms="8866" started-at="2021-02-03T23:52:49Z" finished-at="2021-02-03T23:52:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method status="PASS" signature="checkmarkNum()[pri:0, instance:Testcases.Windows@100fc185]" name="checkmarkNum" duration-ms="3144" started-at="2021-02-03T23:52:58Z" finished-at="2021-02-03T23:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkmarkNum -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Testcases.Windows@100fc185]" name="close" is-config="true" duration-ms="1174" started-at="2021-02-03T23:53:01Z" finished-at="2021-02-03T23:53:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Testcases.Windows -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
